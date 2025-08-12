@@ -1,0 +1,298 @@
+.blog-post {
+  padding: 2rem 0;
+  background: #fff;
+}
+
+.blog-post .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  max-width: 1200px;
+}
+
+.post-content {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.post-header {
+  padding: 2rem 0;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 2rem;
+}
+
+.post-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.post-category {
+  color: #667eea;
+  font-weight: 600;
+}
+
+.post-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.post-excerpt {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.post-author {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.post-image {
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.post-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-body {
+  padding: 0 0 2rem 0;
+  line-height: 1.8;
+  color: #333;
+}
+
+.post-body h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem 0;
+  color: #333;
+}
+
+.post-body h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem 0;
+  color: #333;
+}
+
+.post-body p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.post-body ul {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+}
+
+.post-body li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.post-body strong {
+  font-weight: 600;
+}
+
+.post-footer {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+.share-buttons h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.share-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.share-links a {
+  padding: 0.5rem 1rem;
+  background: #f8f9fa;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.share-links a:hover {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
+
+/* Sidebar */
+.post-sidebar {
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+}
+
+.sidebar-section {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.sidebar-section h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.related-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.related-post {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.related-post:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.related-post h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.related-post a {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.related-post a:hover {
+  color: #667eea;
+}
+
+.related-post-date {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+/* Post Not Found */
+.post-not-found {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.post-not-found h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.post-not-found p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.back-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #667eea;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+  background: #5a6fd8;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .blog-post .container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .post-sidebar {
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-post {
+    padding: 1rem 0;
+  }
+  
+  .post-title {
+    font-size: 2rem;
+  }
+  
+  .post-excerpt {
+    font-size: 1.1rem;
+  }
+  
+  .post-body {
+    font-size: 1rem;
+  }
+  
+  .post-body h2 {
+    font-size: 1.5rem;
+  }
+  
+  .post-body h3 {
+    font-size: 1.2rem;
+  }
+  
+  .post-meta {
+    flex-wrap: wrap;
+  }
+  
+  .share-links {
+    flex-direction: column;
+  }
+  
+  .share-links a {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .post-title {
+    font-size: 1.8rem;
+  }
+  
+  .post-header {
+    padding: 1.5rem 0;
+  }
+  
+  .post-body {
+    padding: 0 0 1.5rem 0;
+  }
+} 
