@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tropicalperspective/static/css/main.be21366c.css",
-    "main.js": "/tropicalperspective/static/js/main.63fb1648.js",
+    "main.css": "/tropicalperspective/static/css/main.a66eaabc.css",
+    "main.js": "/tropicalperspective/static/js/main.04a6cf45.js",
     "index.html": "/tropicalperspective/index.html",
-    "main.be21366c.css.map": "/tropicalperspective/static/css/main.be21366c.css.map",
-    "main.63fb1648.js.map": "/tropicalperspective/static/js/main.63fb1648.js.map"
+    "main.a66eaabc.css.map": "/tropicalperspective/static/css/main.a66eaabc.css.map",
+    "main.04a6cf45.js.map": "/tropicalperspective/static/js/main.04a6cf45.js.map"
   },
   "entrypoints": [
-    "static/css/main.be21366c.css",
-    "static/js/main.63fb1648.js"
+    "static/css/main.a66eaabc.css",
+    "static/js/main.04a6cf45.js"
   ]
 }
