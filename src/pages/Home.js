@@ -67,10 +67,13 @@ const Home = () => {
         <div className="container">
           <div className="hero-content">
             <div className="hero-logo">
-              <img src="/logo.png" alt="TROPICAL PERSPECTIVE" className="hero-logo-image" />
+              <img src={process.env.PUBLIC_URL + "/logo.png"} alt="TROPICAL PERSPECTIVE" className="hero-logo-image" />
             </div>
 
-            <p>Exploring biotechnology, healthcare innovation, and Africa's bioeconomy potential. Sharing insights at the intersection of science, education, and entrepreneurship.</p>
+            <p>Tropical Perspective is where innovation, biotechnology, AI, and the future of work meet African insight. 
+              I share ideas on building sustainable bioeconomies, AI-ready education, and technological progress—all 
+              through the lens of an African mind shaping solutions for the continent and beyond.
+            </p>
             {/*<div className="hero-stats">
               <div className="stat">
                 <span className="stat-number">50+</span>

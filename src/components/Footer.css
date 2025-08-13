@@ -136,4 +136,26 @@
   .newsletter-form {
     flex-direction: column;
   }
+  /* Container for the author photo */
+ /* Force the footer author image to be a small circle */
 } 
+
+.footer-photo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.author_photo {
+  width: 90px;                 /* Bigger size */
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+
+  /* Background */
+  background-color: #f5f5f5;   /* light grey background */
+  padding: 5px;                /* space around image inside the circle */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* subtle shadow */
+}
+

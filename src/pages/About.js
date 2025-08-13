@@ -8,18 +8,20 @@ const About = () => {
         <div className="about-content">
           <header className="about-header">
             <h1>About Me</h1>
-            <p className="about-subtitle">Molecular biologist, educator, and visionary thinker bridging science, education, and entrepreneurship across Africa.</p>
+            <img src={process.env.PUBLIC_URL + "/author_photo.jfif"} alt="TROPICAL PERSPECTIVE"/>
+            <p className="about-subtitle">Eric Kyambadde Kisaakye</p>
           </header>
+          
 
           <div className="about-grid">
             <div className="about-main">
               <div className="about-section">
                 <h2>Who I Am</h2>
                 <p>
-                  I'm Eric Kyambadde — a molecular biologist, former assistant lecturer of biotechnology, and pharmaceutical industry professional turned visionary thinker. My journey bridges science, education, governance, and entrepreneurship across Africa.
+                  A molecular biologist, former Assistant Lecturer of Biotechnology at Kabale University, Uganda, and a pharmaceutical industry expert. With experience in academia, research, and industry, I share insights on building a sustainable future through biotechnology, bioeconomies, innovation, and AI-ready education, shaping solutions that empower Africa.
                 </p>
                 <p>
-                  With experience in biotech research, academia, and pharmaceutical sector, I've come to believe that biology is more than a subject — it's a toolkit for innovation, economic transformation, and solving Africa's most pressing challenges.
+                  With experience in biotech research, academia, and pharmaceutical sector, I've come to believe that biology is more than a subject — it's a toolkit for innovation, economic transformation, and can as well be used to solve Africa's most pressing challenges.
                 </p>
               </div>
 

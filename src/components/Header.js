@@ -15,7 +15,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="logo">
-                            <img src="/logo.png" alt="TROPICAL PERSPECTIVE" className="logo-image" />
+                            <img src={process.env.PUBLIC_URL + "/logo.png"} alt="TROPICAL PERSPECTIVE" className="logo-image" />
           </Link>
           
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
