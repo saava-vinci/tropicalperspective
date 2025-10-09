@@ -27,6 +27,13 @@ const Header = () => {
               Home
             </Link>
             <Link 
+              to="/blog" 
+              className={`nav-link ${location.pathname.startsWith('/blog') ? 'active' : ''}`}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Blog
+            </Link>
+            <Link 
               to="/about" 
               className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}
               onClick={() => setIsMenuOpen(false)}

@@ -18,10 +18,15 @@ const About = () => {
               <div className="about-section">
                 <h2>Who I Am</h2>
                 <p>
-                  A molecular biologist, former Assistant Lecturer of Biotechnology at Kabale University, Uganda, and a pharmaceutical industry expert. With experience in academia, research, and industry, I share insights on building a sustainable future through biotechnology, bioeconomies, innovation, and AI-ready education, shaping solutions that empower Africa.
+                  A molecular biologist, former Assistant Lecturer of Biotechnology at Kabale University, 
+                  Uganda, and a pharmaceutical industry expert. With experience in academia, research, 
+                  and industry, I share insights on building a sustainable future through biotechnology, 
+                  bioeconomies, innovation, and AI-ready education, shaping solutions that empower Africa.
                 </p>
                 <p>
-                  With experience in biotech research, academia, and pharmaceutical sector, I've come to believe that biology is more than a subject — it's a toolkit for innovation, economic transformation, and can as well be used to solve Africa's most pressing challenges.
+                  Upon this rich background, I've come to believe that biology is more than a subject — it's 
+                  a toolkit for innovation, economic transformation, and can as well be used to solve Africa's 
+                  most pressing challenges.
                 </p>
               </div>
 
