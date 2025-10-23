@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tropicalperspective/static/css/main.0592446c.css",
+    "main.js": "/tropicalperspective/static/js/main.5460ab9a.js",
+    "index.html": "/tropicalperspective/index.html",
+    "main.0592446c.css.map": "/tropicalperspective/static/css/main.0592446c.css.map",
+    "main.5460ab9a.js.map": "/tropicalperspective/static/js/main.5460ab9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0592446c.css",
+    "static/js/main.5460ab9a.js"
+  ]
+}
